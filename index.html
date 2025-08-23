@@ -41,29 +41,33 @@
         }
 
         .header-logo {
-            width: 80px;
-            height: 80px;
+            width: 56px;
+            height: 56px;
             border-radius: 50%;
-            flex: 0 0 80px;
+            flex: 0 0 56px;
         }
 
         .header-text {
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 2px;
+            justify-content: center; /* vertically center copy next to logo */
         }
 
         .header h1 {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
-            margin-bottom: 2px;
+            margin: 0; /* remove default top/bottom margins */
             font-weight: 600;
             letter-spacing: 0.5px;
+            line-height: 1.1;
         }
 
         .header p {
             font-size: 0.9rem;
             opacity: 0.9;
+            margin: 0; /* remove default margins */
+            line-height: 1.2;
         }
 
         /* Progress Indicator */
